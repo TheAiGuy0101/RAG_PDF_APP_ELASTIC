@@ -8,7 +8,7 @@ This application allows users to upload large PDF files, perform Retrieval-Augme
 1. Clone the repository:
     git clone [https://github.com/TheAiGuy0101/pdf_rag_app.git](https://github.com/TheAiGuy0101/RAG_PDF_APP_ELASTIC.git)
    
-    cd pdf_rag_app
+    cd RAG_PDF_APP_ELASTIC
 
 
 3. Create a virtual environment and activate it:
