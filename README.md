@@ -7,23 +7,24 @@ This application allows users to upload large PDF files, perform Retrieval-Augme
 
 1. Clone the repository:
     git clone [https://github.com/TheAiGuy0101/pdf_rag_app.git](https://github.com/TheAiGuy0101/RAG_PDF_APP_ELASTIC.git)
+   
     cd pdf_rag_app
 
 
-2. Create a virtual environment and activate it:
+3. Create a virtual environment and activate it:
     python -m venv venv
     source venv/bin/activate # On Windows, use venv\Scripts\activate
 
 
-3. Install the required packages:
+4. Install the required packages:
     pip install -r requirements.txt
 
 
-4. Configure Tesseract OCR:
+5. Configure Tesseract OCR:
    - Install Tesseract OCR from [here](https://github.com/tesseract-ocr/tesseract).
    - Make sure the Tesseract executable is in your PATH.
 
-5. Configure Elasticsearch:
+6. Configure Elasticsearch:
    - Install and run Elasticsearch locally or configure it to run on a server.
    - Update `config/elasticsearch.yml` with the appropriate settings.
 
