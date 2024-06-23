@@ -1,0 +1,29 @@
+2024-06-24 00:43:15,058 - pdf_processing - INFO - Starting PDF to text conversion for data/uploads\20231019830058002.pdf
+2024-06-24 00:43:23,240 - pdf_processing - INFO - Completed PDF to text conversion for data/uploads\20231019830058002.pdf
+2024-06-24 00:43:23,440 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.194s]
+2024-06-24 00:43:23,440 - elasticsearch_utils - INFO - Bulk indexing completed
+2024-06-24 00:44:02,999 - pdf_processing - INFO - Starting PDF to text conversion for data/uploads\20231019830058002.pdf
+2024-06-24 00:44:10,531 - pdf_processing - INFO - Completed PDF to text conversion for data/uploads\20231019830058002.pdf
+2024-06-24 00:44:10,556 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.020s]
+2024-06-24 00:44:10,556 - elasticsearch_utils - INFO - Bulk indexing completed
+2024-06-24 00:44:10,557 - retriever - INFO - Searching documents for query: What is THE CONSTITUTION éFIb'l‘EENTH AMENDMENT) ACT, 1963 
+2024-06-24 00:44:10,668 - elastic_transport.transport - INFO - POST http://localhost:9200/pdf_texts/_search [status:200 duration:0.110s]
+2024-06-24 00:44:10,668 - retriever - INFO - Found 1 documents for query: What is THE CONSTITUTION éFIb'l‘EENTH AMENDMENT) ACT, 1963 
+2024-06-24 00:44:11,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-24 00:44:11,092 - qa_pipeline - ERROR - Error in OpenAI API call: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************5iCJ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-06-24 00:44:11,092 - __main__ - ERROR - Error answering question: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************5iCJ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-06-24 00:44:40,787 - pdf_processing - INFO - Starting PDF to text conversion for data/uploads\20231019830058002.pdf
+2024-06-24 00:44:48,081 - pdf_processing - INFO - Completed PDF to text conversion for data/uploads\20231019830058002.pdf
+2024-06-24 00:44:48,095 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.009s]
+2024-06-24 00:44:48,095 - elasticsearch_utils - INFO - Bulk indexing completed
+2024-06-24 00:44:48,096 - retriever - INFO - Searching documents for query: What is THE CONSTITUTION fifteenth  AMENDMENT) ACT, 1963 
+2024-06-24 00:44:48,108 - elastic_transport.transport - INFO - POST http://localhost:9200/pdf_texts/_search [status:200 duration:0.011s]
+2024-06-24 00:44:48,109 - retriever - INFO - Found 1 documents for query: What is THE CONSTITUTION fifteenth  AMENDMENT) ACT, 1963 
+2024-06-24 00:44:48,484 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-24 00:44:48,485 - qa_pipeline - ERROR - Error in OpenAI API call: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************5iCJ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-06-24 00:44:48,485 - __main__ - ERROR - Error answering question: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************5iCJ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-06-24 00:47:42,512 - pdf_processing - INFO - Starting PDF to text conversion for data/uploads\ConstitutionofIndia-English.pdf
+2024-06-24 01:21:46,092 - pdf_processing - INFO - Completed PDF to text conversion for data/uploads\ConstitutionofIndia-English.pdf
+2024-06-24 01:21:47,142 - elastic_transport.transport - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.438s]
+2024-06-24 01:21:47,143 - elasticsearch_utils - INFO - Bulk indexing completed
+2024-06-24 01:29:18,407 - pdf_processing - INFO - Starting PDF to text conversion for data/uploads\ConstitutionofIndia-English.pdf

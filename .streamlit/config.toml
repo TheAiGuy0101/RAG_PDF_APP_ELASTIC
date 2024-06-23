@@ -1,0 +1,5 @@
+[server]
+headless = true
+port = 8501
+enableCORS = true  # Set to true to match enableXsrfProtection
+enableXsrfProtection = false  # Disable XSRF protection if CORS is needed
