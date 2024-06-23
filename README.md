@@ -6,7 +6,7 @@ This application allows users to upload large PDF files, perform Retrieval-Augme
 ## Installation
 
 1. Clone the repository:
-    git clone https://github.com/your_username/pdf_rag_app.git
+    git clone https://github.com/TheAiGuy0101/pdf_rag_app.git
     cd pdf_rag_app
 
 
