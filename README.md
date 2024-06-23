@@ -2,29 +2,6 @@
 
 This application allows users to upload large PDF files, perform Retrieval-Augmented Generation (RAG), and use a Q&A interface to ask questions about the content.
 
-## Project Structure
-
-pdf_rag_app/
-├── .streamlit/
-│ └── config.toml
-├── config/
-│ ├── elasticsearch.yml
-│ └── openai.yml
-├── data/
-│ └── uploads/
-├── logs/
-│ └── app.log
-├── src/
-│ ├── init.py
-│ ├── main.py
-│ ├── pdf_processing.py
-│ ├── elasticsearch_utils.py
-│ ├── qa_pipeline.py
-│ ├── retriever.py
-│ └── utils.py
-├── requirements.txt
-└── README.md
-
 
 ## Installation
 
